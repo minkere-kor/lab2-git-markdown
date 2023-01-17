@@ -97,14 +97,22 @@ This task is about adding images and using relative path.
    
 3. check git status.  What do you see?
 
+I see the images folder listed as an untracked file.
+
 4. add image to the repo.  Show the command you are using in a code
    block.
-   
+   ```
+   git add images
+   ```
 5. check status again.  Does it indicate that the image has been
    added?
    
+   It does.
+   
 6. what is the relative path of your image if you start walking there
    from the location of your books.md file?
+   
+   cd images/
    
    You can check if the path is correct with something like `ls
    path-to/file`, e.g.
@@ -115,10 +123,18 @@ This task is about adding images and using relative path.
    or directory_ if the path is wrong.
    
 7. now add the image to your books.md file using the relative path.
+   
+   ok
 
 8. check git status and commit
 
+   git status
+   git add books.md
+   git commit -m "Added image to books.md."
+
 9. push
+
+   git push
 
 10. check on github--does your books.md file now contain the image?
 
