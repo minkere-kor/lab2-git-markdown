@@ -12,9 +12,9 @@ tasks are comparable.  Here are the tasks:
    mark your commands.
    
    Here is an example:
-   ```
-   cd Desktop/school/info201/labs
-   ```
+  ```
+  cd Desktop/school/info201/labs
+  ```
 
 1. **fork** this repository on Github under your user name (see
    [course book 4.6.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#forking-and-cloning)).
@@ -23,9 +23,9 @@ tasks are comparable.  Here are the tasks:
    book 4.3.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-getting-creating)).
    Write the command you
    used underneath in a code block.
-   ```
-   git clone https://github.com/minkere-kor/lab2-git-markdown.git
-   ```
+  ```
+  git clone https://github.com/minkere-kor/lab2-git-markdown.git
+  ```
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
    convenient.
@@ -40,10 +40,14 @@ tasks are comparable.  Here are the tasks:
    4.4.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-situational-awareness)).
    Show below, in _block quote_, what does it print.
    
-   > Changes not staged for commit\n  modified: readme.md\nUntracked files:\n books.md
+   >Changes not staged for commit
+      modified: readme.md
+    Untracked files:
+      books.md
    
    Explain, in plain text, what does it mean.
-   The readme markdown file has been altered and has not been committed to the repository and the books markdown file is a new file that has been created and additionally not added to the repository.
+
+  The readme markdown file has been altered and has not been committed to the repository and the books markdown file is a new file that has been created and additionally not added to the repository.
    
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
@@ -56,19 +60,19 @@ tasks are comparable.  Here are the tasks:
 7. Was your add successful?  Check status again!  Explain what do you
    see.
    
-   I see the new file books.md and the modified file readme.md stated to be changes that will be committed as well as being colored in green font.
+I see the new file books.md and the modified file readme.md stated to be changes that will be committed as well as being colored in green font.
    
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
    Put your command underneath in a code block.
-   ```
-   git commit -m "Modified readme.md. Added books.md and listed 3 favorite books."
-   ```
+  ```
+  git commit -m "Modified readme.md. Added books.md and listed 3 favorite books."
+  ```
 9. Was your commit successful?  How can you check it?  Show your
    command(s) as a code block and explain what you see!
-   ```
-   git log
-   ```
+  ```
+  git log
+  ```
    I see a log of the commit history of the repository and I see one log with my user as the author, the date in which I committed it, and the commit message that I typed in.
    
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
