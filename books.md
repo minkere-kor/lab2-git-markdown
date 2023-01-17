@@ -2,4 +2,4 @@
 2. The Hobbit
 3. Leviathan
 
-![Howya Dune](images/howya\ dune.jpg)
+![Howya Dune](images/howya dune.jpg)
