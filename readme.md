@@ -138,3 +138,5 @@ I see the images folder listed as an untracked file.
 
 10. check on github--does your books.md file now contain the image?
 
+yes it does
+
