@@ -49,13 +49,20 @@ tasks are comparable.  Here are the tasks:
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
+  
+  git add books.md
+  git add readme.md
 
 7. Was your add successful?  Check status again!  Explain what do you
    see.
    
+   I see the new file books.md and the modified file readme.md stated to be changes that will be committed as well as being colored in green font.
+   
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
    Put your command underneath in a code block.
+   
+   git commit -m "Modified readme.md. Added books.md and listed 3 favorite books."
    
 9. Was your commit successful?  How can you check it?  Show your
    command(s) as a code block and explain what you see!
