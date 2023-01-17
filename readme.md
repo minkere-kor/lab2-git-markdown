@@ -69,11 +69,15 @@ tasks are comparable.  Here are the tasks:
    ```
    git log
    ```
+   I see a log of the commit history of the repository and I see one log with my user as the author, the date in which I committed it, and the commit message that I typed in.
+   
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
    need to create access token before you are able to push.
    
 11. Go to your github page.  Can you see the books.md file there with
     all the books listed?
+    
+    Yes I can
 
 
 ## Folders and relative path
