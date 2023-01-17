@@ -23,9 +23,9 @@ tasks are comparable.  Here are the tasks:
    book 4.3.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-getting-creating)).
    Write the command you
    used underneath in a code block.
-   
+   ```
    git clone https://github.com/minkere-kor/lab2-git-markdown.git
-   
+   ```
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
    convenient.
@@ -49,10 +49,10 @@ tasks are comparable.  Here are the tasks:
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
-  
+  ```
   git add books.md
   git add readme.md
-
+  ```
 7. Was your add successful?  Check status again!  Explain what do you
    see.
    
@@ -61,12 +61,14 @@ tasks are comparable.  Here are the tasks:
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
    Put your command underneath in a code block.
-   
+   ```
    git commit -m "Modified readme.md. Added books.md and listed 3 favorite books."
-   
+   ```
 9. Was your commit successful?  How can you check it?  Show your
    command(s) as a code block and explain what you see!
-   
+   ```
+   git log
+   ```
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
    need to create access token before you are able to push.
    
